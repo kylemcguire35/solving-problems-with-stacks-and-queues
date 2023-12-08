@@ -11,7 +11,7 @@ const isPalindrome = (sentence) => {
   }
 
   for (
-    sentence.length % 2 === 0 ? (i = middle) : (i = middle + 1);
+    let i = sentence.length % 2 === 0 ? middle : middle + 1;
     i > 0;
     i--
   ) {
